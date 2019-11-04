@@ -1,0 +1,18 @@
+import shopModule from './shopModule'
+import catalogModule from './catalogModule'
+import attributeModule from './attributeModule'
+import stockModule from './stockModule'
+import stockActionModule from './stockActionModule'
+import billModule from './billModule'
+import paymentCategoryModule from './paymentCategoryModule'
+import paymentModule from './paymentModule'
+import orderModule from './orderModule'
+import currencyModule from './currencyModule'
+import priceGroupModule from './priceGroupModule'
+import trademarkModule from './trademarkModule'
+import userModule from './userModule'
+import appModule from './appModule'
+import clientModule from './clientModule'
+import pluginModule from './pluginModule'
+
+export default { pluginModule, clientModule, appModule, userModule, trademarkModule, priceGroupModule, currencyModule, shopModule, attributeModule, catalogModule, stockModule, stockActionModule, paymentModule, paymentCategoryModule, billModule, orderModule }
